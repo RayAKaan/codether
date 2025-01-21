@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export const Navigation = () => {
   const navigate = useNavigate();
@@ -19,6 +20,10 @@ export const Navigation = () => {
           <Button onClick={() => navigate("/register")}>
             Get Started
           </Button>
+          <Avatar className="cursor-pointer" onClick={() => navigate("/profile")}>
+            <AvatarImage src="/placeholder.svg" />
+            <AvatarFallback>U</AvatarFallback>
+          </Avatar>
         </div>
       </div>
     </nav>
