@@ -6,31 +6,7 @@ Codether is a social media platform tailored for developers to showcase their pr
 
 **URL**: [Codether Repository](https://github.com/RayAKaan/codehub-connect)  
 
----
-
-## How Can I Edit This Code?  
-
-There are several ways to work with Codether's codebase:  
-
-### **Use Your Preferred IDE**  
-
-Clone the repository and work locally using your favorite IDE.  
-
-#### Steps:  
-```sh  
-# Step 1: Clone the repository using the project's Git URL.  
-git clone https://github.com/RayAKaan/codether.git  
-
-# Step 2: Navigate to the project directory.  
-cd codether 
-
-# Step 3: Install the necessary dependencies.  
-npm install  
-
-# Step 4: Start the development server with auto-reloading and an instant preview.  
-npm run dev  
-
-# What Technologies Are Used for Codether?
+## What Technologies Are Used for Codether?
 Codether is built using modern web development tools:
 
 Vite: For fast and efficient builds.
@@ -58,7 +34,32 @@ Stay updated about likes, comments, followers, and collaboration requests.
 Persistent Navigation Bar:
 Provides quick access to essential pages like Home, Projects, Reels, Search, Notifications, and Profile.
 
-# Additional Features
+## Additional Features
 Dark and Light Mode
 Fully Responsive Design
 Interactive UI Components like toasts, modals, and accordions
+
+---
+
+## How Can I Edit This Code?  
+
+There are several ways to work with Codether's codebase:  
+
+### **Use Your Preferred IDE**  
+
+Clone the repository and work locally using your favorite IDE.  
+
+#### Steps:  
+```sh  
+# Step 1: Clone the repository using the project's Git URL.  
+git clone https://github.com/RayAKaan/codether.git  
+
+# Step 2: Navigate to the project directory.  
+cd codether 
+
+# Step 3: Install the necessary dependencies.  
+npm install  
+
+# Step 4: Start the development server with auto-reloading and an instant preview.  
+npm run dev  
+
