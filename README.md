@@ -1,69 +1,64 @@
-# Welcome to your Lovable project
+# Welcome to Codether  
 
-## Project info
+## Project Info  
 
-**URL**: https://lovable.dev/projects/0a6fb565-8480-4aef-b993-3eb33879d4d8
+Codether is a social media platform tailored for developers to showcase their projects, share short-form content, and connect with others in the tech community.  
 
-## How can I edit this code?
+**URL**: [Codether Repository](https://github.com/RayAKaan/codehub-connect)  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## How Can I Edit This Code?  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0a6fb565-8480-4aef-b993-3eb33879d4d8) and start prompting.
+There are several ways to work with Codether's codebase:  
 
-Changes made via Lovable will be committed automatically to this repo.
+### **Use Your Preferred IDE**  
 
-**Use your preferred IDE**
+Clone the repository and work locally using your favorite IDE.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### Steps:  
+```sh  
+# Step 1: Clone the repository using the project's Git URL.  
+git clone https://github.com/RayAKaan/codether.git  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Step 2: Navigate to the project directory.  
+cd codether 
 
-Follow these steps:
+# Step 3: Install the necessary dependencies.  
+npm install  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 4: Start the development server with auto-reloading and an instant preview.  
+npm run dev  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# What Technologies Are Used for Codether?
+Codether is built using modern web development tools:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Vite: For fast and efficient builds.
+TypeScript: For strong typing and improved code quality.
+React: As the primary frontend framework.
+shadcn-ui: For prebuilt and customizable UI components.
+Tailwind CSS: For rapid and responsive styling.
+Features
+Core Features
+Project Showcase:
+Developers can upload projects, include detailed descriptions, attach images or videos, and provide live demos.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Short-form Content (Reels):
+Share quick videos or updates about projects, coding tips, or tech insights.
 
-**Edit a file directly in GitHub**
+User Profiles:
+Display your details, uploaded projects, reels, and professional achievements.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Search:
+Discover projects, users, or reels using advanced filters by tags, technologies, or categories.
 
-**Use GitHub Codespaces**
+Notifications:
+Stay updated about likes, comments, followers, and collaboration requests.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Persistent Navigation Bar:
+Provides quick access to essential pages like Home, Projects, Reels, Search, Notifications, and Profile.
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0a6fb565-8480-4aef-b993-3eb33879d4d8) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+# Additional Features
+Dark and Light Mode
+Fully Responsive Design
+Interactive UI Components like toasts, modals, and accordions
