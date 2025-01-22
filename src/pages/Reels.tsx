@@ -4,6 +4,7 @@ import { ReelCard } from "@/components/ReelCard";
 import { ReelUpload } from "@/components/ReelUpload";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Plus } from "lucide-react";
+import { Navigation } from "@/components/Navigation";
 
 // Mock data for reels
 const mockReels = [
@@ -55,7 +56,8 @@ export default function Reels() {
   };
 
   return (
-    <div className="h-screen bg-background">
+    <div className="min-h-screen bg-background pb-16 md:pb-0 md:pt-16">
+      <Navigation />
       <div className="fixed top-4 right-4 z-50">
         <Button
           onClick={() => setShowUpload(true)}
@@ -66,7 +68,7 @@ export default function Reels() {
         </Button>
       </div>
 
-      <ScrollArea className="h-full w-full">
+      <ScrollArea className="h-[calc(100vh-4rem)] w-full">
         <div className="flex flex-col items-center gap-1">
           {reels.map((reel) => (
             <ReelCard key={reel.id} reel={reel} />
