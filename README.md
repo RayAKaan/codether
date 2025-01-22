@@ -2,64 +2,80 @@
 
 ## Project Info  
 
-Codether is a social media platform tailored for developers to showcase their projects, share short-form content, and connect with others in the tech community.  
+**Codether** is a cutting-edge social media platform designed specifically for developers. It allows users to:  
+- Showcase their projects with live demos and multimedia attachments.  
+- Share short-form content to provide insights, tips, or updates.  
+- Connect with fellow developers and build a thriving tech community.  
 
-**URL**: [Codether Repository](https://github.com/RayAKaan/codehub-connect)  
+🔗 **Repository URL**: [Codether GitHub Repository](https://github.com/RayAKaan/codehub-connect)  
 
-## What Technologies Are Used for Codether?
-Codether is built using modern web development tools:
+---
 
-Vite: For fast and efficient builds.
-TypeScript: For strong typing and improved code quality.
-React: As the primary frontend framework.
-shadcn-ui: For prebuilt and customizable UI components.
-Tailwind CSS: For rapid and responsive styling.
-Features
-Core Features
-Project Showcase:
-Developers can upload projects, include detailed descriptions, attach images or videos, and provide live demos.
+## Technology Stack  
 
-Short-form Content (Reels):
-Share quick videos or updates about projects, coding tips, or tech insights.
+Codether leverages modern web technologies to provide a fast, responsive, and interactive experience:  
+- **Vite**: For blazing-fast builds and development.  
+- **TypeScript**: Ensures strong typing and enhanced code quality.  
+- **React**: Core frontend library for building user interfaces.  
+- **shadcn-ui**: Prebuilt and customizable UI components.  
+- **Tailwind CSS**: Utility-first framework for responsive styling.  
 
-User Profiles:
-Display your details, uploaded projects, reels, and professional achievements.
+---
 
-Search:
-Discover projects, users, or reels using advanced filters by tags, technologies, or categories.
+## Features  
 
-Notifications:
-Stay updated about likes, comments, followers, and collaboration requests.
+### Core Features  
+1. **Project Showcase**  
+   - Upload projects with detailed descriptions, images, and videos.  
+   - Provide live demos directly on the platform.  
 
-Persistent Navigation Bar:
-Provides quick access to essential pages like Home, Projects, Reels, Search, Notifications, and Profile.
+2. **Short-form Content (Reels)**  
+   - Share quick, engaging video snippets.  
+   - Highlight project updates, coding tips, or tech insights.  
 
-## Additional Features
-Dark and Light Mode
-Fully Responsive Design
-Interactive UI Components like toasts, modals, and accordions
+3. **User Profiles**  
+   - Showcase professional details, projects, and uploaded reels.  
+   - Serve as a personal tech portfolio.  
+
+4. **Search Functionality**  
+   - Discover projects, users, or reels with advanced filters based on tags, technologies, and categories.  
+
+5. **Notifications**  
+   - Receive real-time updates about likes, comments, followers, and collaboration requests.  
+
+6. **Persistent Navigation Bar**  
+   - Provides seamless navigation between essential pages:  
+     - Home  
+     - Projects  
+     - Reels  
+     - Search  
+     - Notifications  
+     - Profile  
+
+### Additional Features  
+- **Dark and Light Mode**: Enhanced user customization.  
+- **Responsive Design**: Optimized for devices of all sizes.  
+- **Interactive UI Components**: Includes modals, accordions, and toasts for smooth interactions.  
 
 ---
 
 ## How Can I Edit This Code?  
 
-There are several ways to work with Codether's codebase:  
+You can work with Codether's codebase using any of these methods:  
 
-### **Use Your Preferred IDE**  
-
-Clone the repository and work locally using your favorite IDE.  
+### **1. Use Your Preferred IDE**  
+Clone the repository and start editing locally.  
 
 #### Steps:  
 ```sh  
-# Step 1: Clone the repository using the project's Git URL.  
-git clone https://github.com/RayAKaan/codether.git  
+# Step 1: Clone the repository using the Git URL.  
+git clone https://github.com/RayAKaan/codehub-connect.git  
 
 # Step 2: Navigate to the project directory.  
-cd codether 
+cd codehub-connect  
 
 # Step 3: Install the necessary dependencies.  
 npm install  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.  
+# Step 4: Start the development server with auto-reloading.  
 npm run dev  
-
