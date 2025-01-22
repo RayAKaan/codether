@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Home, Search, Bell } from "lucide-react";
 
 export const Navigation = () => {
   const navigate = useNavigate();
@@ -13,12 +14,15 @@ export const Navigation = () => {
             Codether
           </h1>
         </div>
-        <div className="flex items-center space-x-4">
-          <Button variant="ghost" onClick={() => navigate("/login")}>
-            Sign In
+        <div className="flex items-center space-x-6">
+          <Button variant="ghost" size="icon" onClick={() => navigate("/")}>
+            <Home className="h-5 w-5" />
           </Button>
-          <Button onClick={() => navigate("/register")}>
-            Get Started
+          <Button variant="ghost" size="icon" onClick={() => navigate("/search")}>
+            <Search className="h-5 w-5" />
+          </Button>
+          <Button variant="ghost" size="icon" onClick={() => navigate("/notifications")}>
+            <Bell className="h-5 w-5" />
           </Button>
           <Avatar className="cursor-pointer" onClick={() => navigate("/profile")}>
             <AvatarImage src="/placeholder.svg" />
