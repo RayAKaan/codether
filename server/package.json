@@ -1,0 +1,16 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express-session": "^1.18.1",
+        "passport": "^0.7.0",
+        "passport-github2": "^0.1.12"
+    },
+    "author": "",
+    "license": "ISC"
+}
