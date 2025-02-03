@@ -7,7 +7,7 @@
 - Share short-form content to provide insights, tips, or updates.  
 - Connect with fellow developers and build a thriving tech community.  
 
-🔗 **Repository URL**: [Codether GitHub Repository](https://github.com/RayAKaan/codehub-connect)  
+🔗 **Repository URL**: [Codether GitHub Repository](https://github.com/RayAKaan/codether)  
 
 ---
 
@@ -69,10 +69,10 @@ Clone the repository and start editing locally.
 #### Steps:  
 ```sh  
 # Step 1: Clone the repository using the Git URL.  
-git clone https://github.com/RayAKaan/codehub-connect.git  
+git clone https://github.com/RayAKaan/codether.git  
 
 # Step 2: Navigate to the project directory.  
-cd codehub-connect  
+cd codether 
 
 # Step 3: Install the necessary dependencies.  
 npm install  
